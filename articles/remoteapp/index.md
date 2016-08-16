@@ -3,10 +3,10 @@ asset_id: 3b6ec76e-8296-48ce-a9b2-70659314ea04
 layout: HubPage
 title: Azure RemoteApp Documentation | Microsoft Docs
 description:
-keywords: azure documentation, azure remoteapp documentation, ARA, ARA documentation
+keywords:
 author: lizap
 manager: mbaldwin
-ms.date: 04/28/2016
+ms.date: 08/16/2016
 ms.topic: hubpage
 ms.prod: azure
 ms.service: remoteapp
@@ -22,21 +22,17 @@ ms.assetid: 3b6ec76e-8296-48ce-a9b2-70659314ea04
       <h3>New to Azure RemoteApp? <a href="https://azure.microsoft.com/services/remoteapp/" target="_blank"> Visit our product page &rarr;</a></h3>
     </section>
     <aside class="alert section-border">
-      <p>Ready to get hands-on?</p>
-      <ol class="action-list">
-        <li><a href="https://azure.microsoft.com/free/" target="_blank" class="button-bordered button-translucent">Try Now</a></li>
-      </ol>
+      <p>Azure RemoteApp is being discontinued. See the [announcement](https://go.microsoft.com/fwlink/?linkid=821148&clcid=0x409) for details.</p>
     </aside>
     <section id="featured" class="container">
       <h2 class="section-heading"><span class="icon icon-warning"></span> Featured Content</h2>
       <div class="features row">
         <ul class="column column-half">
           <li><a href="/remoteapp/remoteapp-whatis">What is Azure RemoteApp</a></li>
-          <li><a href="/remoteapp/remoteapp-threeminutes">Try Azure RemoteApp in 3 minutes</a></li>
+          <li><a href="/remoteapp/remoteapp-appreqs">Will your app work with Azure RemoteApp?</a></li>
         </ul>
         <ul class="column column-half">
           <li><a href="/remoteapp/remoteapp-anyapp">Run any app on any device with Azure RemoteApp</a></li>
-          <li><a href="/remoteapp/remoteapp-appreqs">Will your app work with Azure RemoteApp?</a></li>
         </ul>
       </div>
     </section>
