@@ -6,7 +6,7 @@ description:
 keywords:
 author: lizap
 manager: mbaldwin
-ms.date: 04/28/2016
+ms.date: 08/16/2016
 ms.topic: hubpage
 ms.prod: azure
 ms.service: remoteapp
