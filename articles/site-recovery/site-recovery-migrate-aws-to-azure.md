@@ -20,7 +20,7 @@
 
 ## Overview
 
-This article describes how to use Site Recovery to migrate Windows instances running in AWS to Azure.Before you start, note that:
+This article describes how to use Site Recovery to migrate Windows instances running in AWS to Azure. Before you start, note that:
 
 - You can migrate only at this time. That means you can fail over from AWS to Azure but you can't fail them back again.
 - This article summarizes and uses many of the steps that are described in full in [Replicate VMware virtual machines or physical servers to Azure](site-recovery-vmware-to-azure-classic.md), which provides the latest enhanced instructions for setting up replication. We suggest you follow this article for detailed instructions as you migrate.
@@ -42,7 +42,7 @@ Here's what you need before you start:
 2. [Deploy a management server](site-recovery-vmware-to-azure-classic.md#Step-5-install-the-management-server). 
 3. After you've deployed the management server validate that it can communicate with the EC2 instances that you want to migrate.
 4. [Create a protection group](site-recovery-vmware-to-azure-classic.md#step-8-create-a-protection-group). A protection group contains protected machines that share the same replication settings. You specify replication settings for a group and they'll be applied to all machines that you add to the group. 
-5. [Install the Mobility service](site-recovery-vmware-to-azure-classic.md#step-9-install-the-mobility-service). Each VM you want to protect needs the Mobility service installed. This service sends data to the process server. The Mobility service can be installed manually or pushed and installed automatically by the process server when protection for the VM is enabled. Firewall rules on EC2 instances that you want to migrate should be configured to allow push installation of this service. The security group for EC2 instances should have the following rules:
+5. [Install the Mobility service](site-recovery-vmware-to-azure-classic.md#step-9-install-the-mobility-service). Each VM you want to protect needs the Mobility service installed. This service sends data to the process server. The Mobility service can be installed manually, using [PowerShell Desired State Configuration, Azure Automation](site-recovery-automate-mobility-service-install.md) or pushed and installed automatically by the process server when protection for the VM is enabled. Firewall rules on EC2 instances that you want to migrate should be configured to allow push installation of this service. The security group for EC2 instances should have the following rules:
 
 	![firewall rules](./media/site-recovery-migrate-aws-to-azure/migrate-firewall.png)
 
