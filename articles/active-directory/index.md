@@ -31,11 +31,13 @@ ms.assetid: 91f0edaf-586b-449e-a7a8-41ab667035fe
       <h2 class="section-heading"><span class="icon icon-warning"></span> Featured Content</h2>
       <div class="features row">
         <ul class="column column-half">
-          <li><a href="/active-directory/active-directory-whatis">What is Azure Active Directory?</a></li>
-          <li><a href="/active-directory/active-directory-identityprotection">Azure AD Identity Protection</a></li>
-        </ul>
+          <li><mark><b>NEW</b></mark> <a href="/active-directory/active-directory-certificate-based-authentication-ios">Get started with certificate based authentication on iOS</a></li>
+          <li><mark><b>NEW</b></mark> <a href="/active-directory/active-directory-certificate-based-authentication-android">Get started with certificate based authentication on Android (Preview)</a></li>
+         </ul>
         <ul class="column column-half">
-          <li><a href="/active-directory/active-directory-b2b-what-is-azure-ad-b2b">What is Azure AD B2B collaboration?</a></li>
+         <li><a href="/active-directory/active-directory-whatis">What is Azure Active Directory?</a></li>
+          <li><a href="/active-directory/active-directory-identityprotection">Azure AD Identity Protection</a></li>
+         <li><a href="/active-directory/active-directory-b2b-what-is-azure-ad-b2b">What is Azure AD B2B collaboration?</a></li>
         </ul>
       </div>
     </section>
