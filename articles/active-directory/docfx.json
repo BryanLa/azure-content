@@ -1,0 +1,37 @@
+{
+  "build": {
+    "content": [
+      {
+        "files": [
+          "**/*.md"
+        ],
+        "exclude": [
+          "**/obj/**"
+        ]
+      }
+    ],
+    "resource": [
+      {
+        "files": [
+          "media/**",
+          "ex_resource/**",
+          "**/*.png",
+          "**/*.jpg",
+          "**/*.gif",
+          "**/*.bmp",
+          "**/*.html"
+        ],
+        "exclude": [
+          "**/obj/**",
+          "_themes/**"
+        ]
+      }
+    ],
+    "globalMetadata": {
+      "breadcrumb_path": "/enterprise-mobility/toc.json",
+      "ROBOTS": "NOINDEX,NOFOLLOW"
+    },
+    "template": ["docs.html"],
+    "dest": "articles/active-directory"
+  }
+}
