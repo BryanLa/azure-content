@@ -49,6 +49,9 @@
     "saldana@microsoft.com",
     "kenchen@microsoft.com"
   ],
+  "branches_to_filter": [
+    "master-sync"
+  ],
   "git_repository_url_open_to_public_contributors": "https://github.com/Azure/azure-content",
   "git_repository_branch_open_to_public_contributors": "master",
   "skip_source_output_uploading": false,
