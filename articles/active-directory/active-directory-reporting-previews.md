@@ -1,3 +1,3 @@
 ---
-redirect_url: /azure/active-directory/active-directory-reporting-previews
+redirect_url: /azure/active-directory/
 ---

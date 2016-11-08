@@ -1,3 +1,3 @@
 ---
-redirect_url: /azure/multi-factor-authentication/multi-factor-authentication-end-user-app-passwords-create-o365
+redirect_url: /azure/multi-factor-authentication
 ---
